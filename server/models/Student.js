@@ -7,4 +7,4 @@ const studentsSchema = new mongoose.Schema({
     email:String,
 },{timestamps: true});
 
-module.exports=moongse.model('Student,studentSchema');
+module.exports=mongoose.model('Student',studentsSchema);
